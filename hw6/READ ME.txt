@@ -1,0 +1,25 @@
+=============about mysql=================
+#if you dont have mariadb on your side, please type in linux:
+sudo apt install mariadb-server
+#log in as root
+sudo mariadb -u root
+#and set user name and privileges.
+#then run mariadb 
+sudo service mariadb start
+#also if you dont have pymysql.cursors, please type in linux:
+pip install pymysql
+
+=============about file===================
+#bestbuy.txt and microcenter.txt are two main input file
+#products.sh is the main running file
+#parser.py is the minidom convert file
+#product.php is the homepage, which users can click one product
+#compare.php is the fetched information one.
+#purchase.php is finish purchase one.
+#img folder is the header and purchase page images
+#storeDB_product.sql and storeDB_purchase.sql are two dumped sql files, which are empty. password is zhaoshu
+
+==============Apache=======================
+If you re using Apache2:
+Please copy product.php, compare.php, and purchase.php to /var/www/html
+Please copy img folder to /var/www/html if you want to show the header and thank you picture
